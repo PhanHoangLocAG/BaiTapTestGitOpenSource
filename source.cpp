@@ -15,7 +15,7 @@ int main()
 	cin >> a;
 	cout << "nhap b" << endl;
 	cin >> b;
-	cout<<"Tong 2 so la:"<<tong(a,b);
+	cout<<"Tong 2 so la:"<<tong(a,b)<<endl;
 	system("pause");
 	cout<<"hello word";
 	return 0;
