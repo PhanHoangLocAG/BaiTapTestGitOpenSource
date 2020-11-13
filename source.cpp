@@ -1,6 +1,9 @@
 #include <iostream>
 using namespace std;
 int hieu(int a,int b)
+{
+	return a-b;
+}
 int tong(int a,int b)
 {
 	return a+b;
@@ -16,6 +19,7 @@ int main()
 	cout << "nhap b" << endl;
 	cin >> b;
 	cout<<"Tong 2 so la:"<<tong(a,b);
+	cout<<"Hieu cua 2 so la:"<<hieu(a,b);
 	system("pause");
 	cout<<"hello word";
 	return 0;
